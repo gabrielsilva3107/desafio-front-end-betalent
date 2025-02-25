@@ -1,46 +1,69 @@
-# Getting Started with Create React App
+# 🖥️ Desafio Front-End BeTalent
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto desenvolvido como parte do teste técnico de Front-End da BeTalent. O objetivo é construir uma **tabela responsiva** que consome dados de uma **API simulada** via `json-server`.
 
-## Available Scripts
+## 🚀 Tecnologias utilizadas
+- React.js
+- TypeScript
+- Styled Components
+- JSON Server
+- Axios
 
-In the project directory, you can run:
+## 📌 Funcionalidades
+✔️ Tabela responsiva (desktop e mobile)
+✔️ Consumo de API simulada com `json-server`
+✔️ Filtro de busca por **nome, cargo e telefone**
+✔️ Formatação de datas e telefones
 
-### `npm start`
+## ⚙️ **Pré-requisitos**
+Antes de rodar o projeto, instale as seguintes ferramentas:
+- [Node.js](https://nodejs.org/en/)
+- [Git](https://git-scm.com/)
+- Gerenciador de pacotes: **Yarn** ou **npm**
+- `json-server` para a API simulada
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🚀 **Como rodar o projeto?**
+1️⃣ **Clone este repositório**
+```bash
+git clone https://github.com/gabrielsilva3107/desafio-front-end-betalent.git
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+2️⃣ Entre na pasta do projeto
 
-### `npm test`
+bash
+Copiar
+Editar
+cd desafio-front-end-betalent
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3️⃣ Instale as dependências
 
-### `npm run build`
+bash
+Copiar
+Editar
+yarn
+# ou
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4️⃣ Rode o JSON Server para a API simulada
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+bash
+Copiar
+Editar
+json-server --watch db.json --port 5000
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5️⃣ Abra outra aba no terminal e inicie o projeto
 
-### `npm run eject`
+bash
+Copiar
+Editar
+yarn start
+# ou
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+6️⃣ Acesse no navegador:
+http://localhost:3000
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📜 Licença
+Este projeto foi desenvolvido exclusivamente para fins avaliativos.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+🤝 Contato
+📧 Email: gabrielssilva3107@gmail.com
