@@ -29,32 +29,20 @@ git clone https://github.com/gabrielsilva3107/desafio-front-end-betalent.git
 
 2️⃣ Entre na pasta do projeto
 
-bash
-Copiar
-Editar
 cd desafio-front-end-betalent
 
 3️⃣ Instale as dependências
 
-bash
-Copiar
-Editar
 yarn
 # ou
 npm install
 
 4️⃣ Rode o JSON Server para a API simulada
 
-bash
-Copiar
-Editar
 json-server --watch db.json --port 5000
 
 5️⃣ Abra outra aba no terminal e inicie o projeto
 
-bash
-Copiar
-Editar
 yarn start
 # ou
 npm start
